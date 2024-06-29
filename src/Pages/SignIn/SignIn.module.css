@@ -1,0 +1,71 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.logoContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo{
+    border-radius: 10px;
+}
+
+.container{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hookPhase{
+    width: 75%;
+    color: rgb(238, 132, 56);;
+    text-align: center; 
+    font-family: 'Roboto', sans-serif;
+}
+.credentialsContainer{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.formInput{
+    width: 75%;
+    height: 2.5rem;
+    border: 1px, solid, black;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.buttonContainer{
+    background-color: rgb(238, 132, 56);
+    padding: 10px 30px;
+    font-size: medium;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
