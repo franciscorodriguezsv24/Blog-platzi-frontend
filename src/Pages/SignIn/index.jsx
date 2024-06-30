@@ -1,6 +1,7 @@
 import StyleCss from './SignIn.module.css'
 import BlogLog from '../../../public/blog-logo.png'
 import googleFonts from 'google-fonts';
+import Footer from '../../components/Footer'
 
 googleFonts.add({
     'Roboto': true,
@@ -35,6 +36,7 @@ const SignIn = () => {
                 </div>
             </div>
         </div>
+        <Footer/>
         </>
 
     );

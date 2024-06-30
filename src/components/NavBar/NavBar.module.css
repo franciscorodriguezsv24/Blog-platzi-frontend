@@ -2,4 +2,34 @@
     background-color: green;
     width: 100%;
     height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.listContainer{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    gap: 3rem;
+    font-size: xx-large;
+    margin: 0px;
+    justify-content: start;
+    align-items: center;
+    color: white;
+
+}
+
+.profileImgContainer{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.profileImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
 }
