@@ -28,9 +28,9 @@ const SignIn = () => {
                     </div>
 
                     <div className={StyleCss.formContainer}>
-                        <button className={StyleCss.buttonContainer} type='submit'>
+                        <a className={StyleCss.buttonContainer} type='submit' href="/">
                         Sign in
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
