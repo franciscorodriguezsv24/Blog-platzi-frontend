@@ -1,0 +1,51 @@
+
+.container{
+    background-color: red;
+    padding: 1rem;
+}
+
+.postImgTextContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.containerImg{
+    width: 3rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileImg{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+.containerInput{
+    width: 95%;
+    height: 2rem;
+    padding-right: 1rem;
+}
+
+.postInput{
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+
+.postCardContainer{
+    border: 1px solid black;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,19 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.column1{
+    width: 20%;
+    background-color: azure;
+}
+
+.column2{
+    width: 60%;
+}
+
+.column3{
+    width: 20%;
+    background-color: goldenrod;
+}
